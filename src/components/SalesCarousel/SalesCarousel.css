@@ -1,0 +1,146 @@
+.sales-carousel {
+  text-align: center;
+  background: #fff;
+  width: 100%;
+  max-width: 75%;
+  margin: auto;
+  font-family: "Circular Pro", Verdana, sans-serif;
+  margin-bottom: 50px;
+}
+
+.sales-carousel h2 {
+  font-size: var(--fs-40);
+  line-height: 48px;
+  font-weight: var(--fw-700);
+  margin-bottom: 10px;
+}
+
+.sales-carousel p {
+  font-size: var(--fs-16);
+  color: var(--charcoal);
+  margin-bottom: 40px;
+}
+
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-viewport {
+  overflow: hidden;
+  width: 90%;
+}
+
+.carousel-track {
+  display: flex;
+}
+
+.carousel-item {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-title {
+  font-weight: var(--fw-600);
+  font-size: var(--fs-14);
+  color: var(--green);
+  margin: 15px 0;
+  cursor: pointer;
+}
+.product-title:hover {
+  text-decoration: underline;
+}
+.arrow {
+  background-color: var(--green);
+  border: none;
+  color: var(--white);
+  font-size: var(--fs-20);
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow.left {
+  left: 0;
+}
+.arrow.right {
+  right: 0;
+}
+
+.carousel-dots {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  margin: 0 5px;
+  background-color: var(--light-gray);
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.active-dot {
+  background-color: var(--green);
+  transform: scale(1.5);
+}
+@media (max-width: 1550px) {
+  .sales-carousel {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 786px) {
+  .sales-carousel {
+    max-width: 90%;
+    margin-bottom: 40px;
+  }
+  .sales-carousel h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .sales-carousel p {
+    font-size: var(--fs-14);
+    margin-bottom: 30px;
+  }
+
+  .carousel-item {
+    padding: 0 5px;
+  }
+
+  .carousel-viewport {
+    width: 100%;
+  }
+
+  .arrow {
+    width: 40px;
+    height: 40px;
+    font-size: var(--fs-16);
+  }
+
+  .product-title {
+    font-size: var(--fs-12);
+  }
+}

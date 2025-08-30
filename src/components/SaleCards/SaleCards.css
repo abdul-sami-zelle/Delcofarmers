@@ -1,0 +1,81 @@
+.sales-cards-main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 70%;
+  align-items: stretch;
+  margin: auto;
+  margin-bottom: 100px;
+  gap: 35px;
+}
+
+.sales-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 24%;
+  background: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 400px;
+}
+
+.sales-cards-container img {
+  width: 100%;
+  height: 65%;
+  object-fit: contain;
+}
+
+.sales-cards-container span {
+  font-size: var(--fs-22);
+  font-weight: var(--fw-600);
+  color: var(--green);
+  line-height: 30px;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+   cursor: pointer;
+}
+.sales-cards-container span:hover {
+  text-decoration: underline;
+}
+@media (max-width: 1550px) {
+  .sales-cards-main {
+    max-width: 85%;
+  }
+}
+@media (max-width: 786px) {
+  .sales-cards-main {
+    flex-direction: column; 
+    gap: 20px;
+    max-width: 95%;
+    margin-bottom: 40px;
+  }
+
+  .sales-cards-container {
+    flex-direction: row; 
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .sales-cards-container img {
+    width: 36.5%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .sales-cards-container span {
+    width: 63.5%;
+    margin-top: 0;
+    text-align: left;
+    line-height: 1.4;
+    font-size: var(--fs-16);
+  }
+}
