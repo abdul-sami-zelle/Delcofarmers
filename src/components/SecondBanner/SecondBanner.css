@@ -57,7 +57,6 @@
 }
 .second-Banner-promo button:hover {
   text-decoration: underline;
-  background-color: rgb(9, 94, 9);
 }
 @media (max-width: 1550px) {
   .second-banner-main {

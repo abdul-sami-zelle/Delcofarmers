@@ -1,9 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { FaFacebook, FaInstagramSquare } from "react-icons/fa";
 import { FaArrowRightLong, FaSquareXTwitter } from "react-icons/fa6";
-import { BsFillThreadsFill } from "react-icons/bs";
-import { AiFillTikTok } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -22,7 +19,7 @@ const Footer = () => {
             <ul>
               <li>Weekly Sales</li>
               <li>Browse In-Store</li>
-              <li>Grocery Pickup & Delivery</li>
+              <li><a href="https://bakery.delcofarmersmarket.com">Grocery Pickup & Delivery</a></li>
               <li>Catering</li>
               <li>Shipped to You</li>
               <li>Amazon Prime at Delco Farmers</li>
@@ -80,7 +77,7 @@ const Footer = () => {
             <ul>
               <li>Weekly Sales</li>
               <li>Browse In-Store</li>
-              <li>Grocery Pickup & Delivery</li>
+              <li><a href="https://bakery.delcofarmersmarket.com">Grocery Pickup & Delivery</a></li>
               <li>Catering</li>
               <li>Shipped to You</li>
               <li>Amazon Prime at Delco Farmers</li>

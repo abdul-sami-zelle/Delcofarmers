@@ -22,7 +22,7 @@ const Banner = () => {
       <div className="small-banner-main">
         <div className="small-banner-container">
           <span>
-            Grocery Pickup <br /> & Delivery
+            <a href="https://bakery.delcofarmersmarket.com">Grocery Pickup <br /> & Delivery</a>
           </span>
 
             <img

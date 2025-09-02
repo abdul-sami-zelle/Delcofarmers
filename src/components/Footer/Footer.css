@@ -57,6 +57,17 @@
   transition: 0.3s;
 }
 
+.footer-column ul li a{
+  font-size: var(--fs-14);
+  margin-bottom: 12px;
+  font-weight: var(--fw-600);
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  color: white;
+}
+
+
 .footer-column ul li:hover {
   text-decoration: underline;
 }
@@ -219,6 +230,15 @@
     font-weight: var(--fw-600);
     cursor: pointer;
     transition: 0.3s;
+  }
+
+  .mobile-footer-column ul li a{
+    font-size: var(--fs-14);
+    margin-bottom: 15px;
+    font-weight: var(--fw-600);
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
   }
 
   .mobile-footer-column ul li:hover {
